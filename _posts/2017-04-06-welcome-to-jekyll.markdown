@@ -2,10 +2,10 @@
 layout: post
 title: "What is One Hot Encoding!"
 date: 2017-04-06 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description:In Data Science One hot encoding basically transforms categorical features to a format that works better with machine learning algorithms . # Add post description (optional)
 img:  # Add image post (optional)
 ---
-YIf you are a Machine Learning or a Deep Learning Enthusiast you might have been reading or hearing this term **One Hot Encoding** a lot.
+If you are a Machine Learning or a Deep Learning Enthusiast you might have been reading or hearing this term **One Hot Encoding** a lot.
 
 So what exactly this thing is ?
 
@@ -86,12 +86,14 @@ This works good with almost every machine learning algorithms. but there are few
     #<array>=array  of indices to be encode 
     X = onehotencoder.fit_transform(X).toarray()
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+from sklearn.preprocessing import  OneHotEncoder
+    X=df.iloc[:,:]
+    onehotencoder = OneHotEncoder(categorical_features = <array>) 
+    #onehot encoder to encode those numerical values
+    #<array>=array  of indices to be encode 
+    X = onehotencoder.fit_transform(X).toarray()
+
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
