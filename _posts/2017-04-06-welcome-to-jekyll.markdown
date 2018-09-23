@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "What is One Hot Encoding!"
+title: "What is One-Hot Encoding!"
 date: 2017-04-06 13:32:20 +0300
-description:In Data Science One hot encoding basically transforms categorical features to a format that works better with machine learning algorithms . # Add post description (optional)
+description: One hot encoding basically transforms categorical features to a format that works better with machine learning algorithms. # Add post description (optional)
 img:  # Add image post (optional)
 ---
 If you are a Machine Learning or a Deep Learning Enthusiast you might have been reading or hearing this term **One Hot Encoding** a lot.
@@ -95,9 +95,3 @@ from sklearn.preprocessing import  OneHotEncoder
     X = onehotencoder.fit_transform(X).toarray()
 
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
