@@ -42,7 +42,7 @@ The **Poisson distribution** is discrete and positive. At a very minimum, this w
 
 The Poisson has its own problems 
 
-It assumes that the mean of the vote count variable will also be the same as its variance. There are hardly any non-contrived examples where this was true. 
+It assumes that the mean of the target variable will also be the same as its variance. There are hardly any non-contrived examples where this was true. 
 
 Fortunately, bright people have come up with other distributions that are also positive and discrete, but that add parameters to allow the variance to vary.
 
