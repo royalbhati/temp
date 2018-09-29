@@ -85,8 +85,8 @@ from sklearn.preprocessing import  OneHotEncoder
     onehotencoder = OneHotEncoder(categorical_features = <array>) 
     #onehot encoder to encode those numerical values
     #<array>=array  of indices to be encode 
-    X = onehotencoder.fit_transform(X).toarray()
+    X = onehotencoder.fit_transform(X).toarray() x
 
 {% endhighlight %}
 
-xx
+
