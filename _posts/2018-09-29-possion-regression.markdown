@@ -20,7 +20,7 @@ Poisson regression is intended for use in regression models that are used to pre
 
   A Poisson distribution is a tool that helps to predict the probability of certain events from happening when you know         how often the event has occurred. It gives us the probability of a given number of events happening in a fixed interval of   time.
   
-     [poisson](_assets/img/poisson-distribution.png)
+     [poisson](assets/img/poisson-distribution.png)
 
 * Counts cannot be negative. The method will fail outright if you attempt to use it with negative labels.
 
