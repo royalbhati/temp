@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DengAI: Predicting Disease Spread!"
-date: 2018-09-29 13:32:20 +0300
+date: 2018-09-29 14:32:20 +0300
 description: Goal was to predict the total Dengue cases for each city. # Add post description (optional)
 img:  # Add image post (optional)
 ---
