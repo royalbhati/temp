@@ -60,7 +60,7 @@ The negative binomial regression simply lifts the assumption that the population
 
 
 
-##TL;DR
+## TL;DR
 
 If your target variable is a non-negative integer and you are looking to make some count predictions. 
 Then you have two Standard regression techniques for this type :
