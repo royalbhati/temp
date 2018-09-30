@@ -24,14 +24,4 @@ There are various reasons which can lead to overfitting like
 It places constraints on the vector W of “weights”.
 When you hear about L1 regularization it means that the L1-norm [1] of the vector  is being constrained.
 The L1-norm of the vector is defined in the following way:
-  W<sub>r= \sum
-
-\begin{equation}
-
-$\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
-$ \sum_{\forall i}{x_i^{2}} $
-
-\end{equation}
-
-$ \sum_{\forall i}{x_i^{2}} $
-
+  W<sub>r= E(|w|)
