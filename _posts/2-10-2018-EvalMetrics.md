@@ -20,9 +20,7 @@ There are various machine learning evaluation metrics available and every metric
 ###  Mean Absolute Error
 
 The **mean absolute error** (MAE) is the simplest regression error metric to understand. We subtract the predicted value from the actual value and take its average over all the values. 
-$$
-MAE=1/n (  \sum\|  Y^{actual} -Y^{pred}\|)
-$$
+
 ![MAE](mae/jpg)
 
 ###  Mean Square Error
