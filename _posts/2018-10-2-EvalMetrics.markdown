@@ -21,20 +21,20 @@ There are various machine learning evaluation metrics available and every metric
 
 The **mean absolute error** (MAE) is the simplest regression error metric to understand. We subtract the predicted value from the actual value and take its average over all the values. 
 
-![MAE](mae/jpg)
+![MAE](/assets/img/mae.jpg)
 
 ###  Mean Square Error
 
 The **mean square error** (MAE) is the another simple regression error in which we basically square the result of the subtraction of the predicted value from the actual value and take its average over all the values. 
 
-![MSE](mse.jpg)
+![MSE](/assets/img/mse.jpg)
 
 
 ### Root mean squared error
 
 Another similar error metric  is the  **root mean squared error**  (RMSE). As the name suggests, it is the square root of the MSE. Because the MSE is squared, its units do not match that of the original output. Researchers will often use RMSE to convert the error metric back into similar units, making interpretation easier.
 
-![RMSE](rmse.jpg)
+![RMSE](/assets/img/rmse.jpg)
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
@@ -42,7 +42,7 @@ You can delete the current file by clicking the **Remove** button in the file ex
 
 The  **mean absolute percentage error**  (MAPE) is the percentage equivalent of MAE. The equation looks just like that of MAE, but with adjustments to convert everything into percentages.
 
-![MAPE](mape.jpg)
+![MAPE](/assets/img/mape.jpg)
 
 
 ### Conclusion on Regression Metrics
